@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Cart | Loyal Way Traders</title>
+<meta name="description" content="Review the components you've selected and send an enquiry to Loyal Way Traders via WhatsApp.">
+<link rel="canonical" href="https://www.yourdomain.com/cart.html">
+
+<meta property="og:title" content="Your Cart | Loyal Way Traders">
+<meta property="og:description" content="Review the components you've selected and send an enquiry to Loyal Way Traders via WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.yourdomain.com/cart.html">
+<meta property="og:image" content="https://www.yourdomain.com/loyal_logo/logo.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Your Cart | Loyal Way Traders">
+<meta name="twitter:description" content="Review the components you've selected and send an enquiry to Loyal Way Traders via WhatsApp.">
+<meta name="twitter:image" content="https://www.yourdomain.com/loyal_logo/logo.jpg">
+
+<link rel="icon" href="loyal_logo/logo.jpg" type="image/jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<meta name="robots" content="noindex">
+</head>
+<body>
+
+<header>
+  <div class="top-row">
+    <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <a class="brand" href="index.html">
+      <img src="loyal_logo/logo.jpg" alt="Loyal Way Traders logo" width="46" height="46">
+      <span class="brand-text">LOYAL WAY<small>Industrial Automation &amp; Electrical Components</small></span>
+    </a>
+    <a class="cart-btn" href="cart.html" id="cartBtn" aria-label="Cart">
+      🛒<span class="cart-count" id="cartCount">0</span>
+    </a>
+  </div>
+
+  <nav class="desktop-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="products.html">Product</a></li>
+      <li><a href="producers.html">Producers</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="products.html">Product</a></li>
+      <li><a href="producers.html">Producers</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<div id="cart-page" class="circuit-bg visible">
+  <div class="cart-wrap">
+    <a class="back-link" href="index.html">&#8592; Back to shop</a>
+    <div class="section-head" style="text-align:left;margin-bottom:28px;">
+      <p class="eyebrow">Your Selection</p>
+      <h1>Cart</h1>
+      <div class="divider" style="margin:16px 0 0;"></div>
+    </div>
+    <div id="cartItems"></div>
+  </div>
+</div>
+
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
